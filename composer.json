@@ -17,12 +17,17 @@
         "tron-api",
         "tron-rest-api"
     ],
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/konstantin-cthulhu/web3.php"
+        }
+    ],
     "require": {
         "php": ">=8.0",
         "comely-io/data-types": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
-        "iexbase/web3.php": "^2.0.1",
+        "iexbase/web3.php": "dev-php8",
         "kornrunner/secp256k1": "^0.2",
         "simplito/elliptic-php": "^1.0",
         "ext-json": "*",
