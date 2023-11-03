@@ -20,12 +20,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/konstantin-cthulhu/web3.php"
+            "url": "https://github.com/konstantin-finotiv/web3.php"
         }
     ],
     "require": {
         "php": ">=8.0",
-        "comely-io/data-types": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "iexbase/web3.php": "dev-php8",
         "kornrunner/secp256k1": "^0.2",
